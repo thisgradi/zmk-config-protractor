@@ -1,0 +1,8 @@
+file_format: "1"
+id: protractor
+name: Protractor
+type: shield
+url: https://github.com/thisgradi/zmk-config-protractor
+requires: [pro_micro]
+features:
+  - keys

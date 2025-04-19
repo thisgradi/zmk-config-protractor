@@ -1,0 +1,9 @@
+if SHIELD_PROTRACTOR
+
+config ZMK_KEYBOARD_NAME
+	default "protractor"
+
+config ZMK_SLEEP
+	default n
+
+endif
