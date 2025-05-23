@@ -45,9 +45,9 @@
 		 * ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫
 		 * ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃    [    ┃    ]    ┃
 		 * ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫
-		 * ┃         ┃  BT 0   ┃  BT 1   ┃  BT 2   ┃  BT 3   ┃  BT 4   ┃         ┃         ┃         ┃         ┃    '    ┃         ┃
+		 * ┃         ┃         ┃         ┃   Alt   ┃Shift+Tab┃   Tab   ┃         ┃         ┃         ┃         ┃    '    ┃         ┃
 		 * ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫
-		 * ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃
+		 * ┃         ┃  BT 0   ┃  BT 1   ┃  BT 2   ┃  BT 3   ┃  BT 4   ┃         ┃         ┃         ┃         ┃         ┃         ┃
 		 * ┣━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━╋━━━━━━━━━┫
 		 * ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃         ┃
 		 * ┗━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┻━━━━━━━━━┛
@@ -58,8 +58,8 @@
 			bindings = <
 				&bt BT_CLR		&bt BT_PRV		&bt BT_NXT		&trans			&trans			&out OUT_TOG	&trans			&trans			&kp C_BRI_DN	&kp C_BRI_UP	&kp C_VOL_DN	&kp C_VOL_UP
 				&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&kp LBKT		&kp RBKT
-				&trans			&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&trans			&trans			&trans			&trans			&kp APOS		&trans
-				&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans
+				&trans			&trans			&kp LALT		&kp LS(TAB)		&kp TAB			&trans			&trans			&trans			&trans			&trans			&kp APOS		&trans
+				&trans			&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&bt BT_SEL 4	&trans			&trans			&trans			&trans			&trans			&trans
 				&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans			&trans
 			>;
 		};
